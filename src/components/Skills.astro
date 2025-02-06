@@ -1,0 +1,64 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Dev</h2>
+		<p>J'adore la conception d'application ou de logiciel</p>
+		<p>Language de programmation : Java, C#, C++, Web(HTML, CSS, JavaScript), PHP, Kotlin</p>
+		<p>j'aime beaucoup les frameworks : WinForm, WPF, NodeJs, Ktor, React</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Esprit d'équipe</h2>
+		<p>Je sais m'adapter au sein d'un groupe, je suis organisé dans le travail, disposé pour les autres et je n'ai pas peur de demander de l'aide si j'en ai besoin</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="arrow-right" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Rigoureux</h2>
+		<p>Je suis travailleur, j'aime énormément apprendre de nouvelles choses, je suis assoiffé de connaissance, motivé à réaliser du travail de qualité et déterminé à réussir</p>
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>

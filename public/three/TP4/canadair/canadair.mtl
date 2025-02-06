@@ -1,0 +1,234 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+# Multi/Sub Material__51 (26) to come 
+#
+newmtl CANDALAL
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDALAL.JPG
+#
+newmtl cand46
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDNOIR.JPG
+map_d textures/CAND-46.JPG
+#
+newmtl CANDALIN
+Ka  0.9 0.7 0.2
+Kd  0.9 0.7 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl CANDALON
+Ka  0.9 0.7 0.2
+Kd  0.9 0.7 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl candrjdf
+Ka  0.7 0.2 0.0
+Kd  0.7 0.2 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl CANDBAND
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDBAND.JPG
+map_d textures/CANDBAN2.JPG
+#
+newmtl CANDROJ
+Ka  0.7 0.2 0.0
+Kd  0.7 0.2 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl CANDINOU
+Ka  0.9 0.7 0.2
+Kd  0.9 0.7 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl CANDCRIS
+Ka  0.1 0.2 0.0
+Kd  0.1 0.2 0.0
+Ks  1.0 1.0 1.0
+d  0.5
+Ns  0.5
+illum 2
+#
+newmtl CANDCROM
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.2 0.2 0.1
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl candfusl
+Ka  0.9 0.7 0.2
+Kd  0.9 0.7 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl CANDGOMA
+Ka  0.1 0.1 0.0
+Kd  0.1 0.1 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl CANDFUS
+Ka  0.9 0.7 0.2
+Kd  0.9 0.7 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl candngbr
+Ka  0.1 0.0 0.0
+Kd  0.1 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl CANDPIS
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDNOIR.JPG
+map_d textures/CANDPIS2.JPG
+#
+newmtl CANDNGTB
+Ka  0.1 0.0 0.0
+Kd  0.1 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+bump textures/CANDTRBB.JPG
+#
+newmtl CANDPROT
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDPROT.JPG
+map_d textures/CANPRT2.JPG
+#
+newmtl CANDPUE1
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDPUE1.JPG
+#
+newmtl CANDPUE2
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDPUE2.JPG
+#
+newmtl CANDPUE3
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDPUE3.JPG
+#
+newmtl CANDRUED
+Ka  0.1 0.1 0.0
+Kd  0.1 0.1 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+bump textures/CANDBRUE.JPG
+#
+newmtl CANDSECD
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDSECD.JPG
+#
+newmtl CANDSECI
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDSECI.JPG
+#
+newmtl CANDTBAM
+Ka  0.9 0.7 0.2
+Kd  0.9 0.7 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+bump textures/CANDTBAM.JPG
+#
+newmtl CANDV
+Ka  0.9 0.7 0.2
+Kd  0.9 0.7 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl CANDZBBV
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.5
+illum 2
+map_Kd textures/CANDZBBV.JPG
+map_d textures/CANDZBB2.JPG
+#
+# Multi/Sub Material__51 done 
+#
+# EOF
