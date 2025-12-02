@@ -10,7 +10,7 @@ tags:
   - Dev
 ---
 
-## Joomla 4
+##### Joomla 4
 Joomla est un CMS Open Source primé, construit et maintenu par une forte communauté de bénévoles qui s'efforcent de produire des logiciels robustes, sécurisés et faciles à utiliser.
 Il peut être téléchargé et utilisé gratuitement, et ses fonctionnalités sont à la pointe de la technologie web. Son utilisation se fait principalement via un panneau d'administration.
 
@@ -20,7 +20,7 @@ Voici un aperçu du panneau d'administration Joomla 4 :
 
 Joomla permet aux créateurs de sites web de créer des sites puissants, dont la maintenance du contenu est facile et transparente.
 
-## Intranet
+##### Intranet
 J'ai crée un site intranet qui affiche un annuaire contenant les différents
 agents de chaque service de la mairie d'Aubenas, afin qu’il soit plus simple de trouver les informations d’une personne ou d’un service.
 

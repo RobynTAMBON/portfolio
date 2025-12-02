@@ -12,14 +12,14 @@ tags:
   - Mobile
 ---
 
-#### Contexte du projet
+##### Contexte du projet
 
 Le **SEBA** (Syndicat des Eaux du Bassin de l’Ardèche) doit assurer un suivi régulier de la qualité de l’eau sur les installations de puisage et de stockage.  
 Jusqu’à présent, les relevés (pH, débit, etc.) étaient réalisés **manuellement**, ce qui rendait le suivi plus long et augmentait les risques d’erreurs.
 
 L’objectif du projet était donc de **numériser et automatiser** l’ensemble du processus de mesure et de gestion des données.
 
-#### Objectifs
+##### Objectifs
 
 - Automatiser la **prise**, le **stockage**, la **gestion** et la **visualisation** des données de mesure.  
 - Développer :
@@ -28,13 +28,13 @@ L’objectif du projet était donc de **numériser et automatiser** l’ensemble
 
 <img src="/assets/dgCasUtilisation.png" width="100%" height="500px"/>
 
-#### Répartition du travail
+##### Répartition du travail
 
 - **Tambon Robyn & Rosier Kirill** : Développement du logiciel administrateur Windows.  
 - **Pelletier Valentin** : Amélioration du design (logiciel + mobile).  
 - **Seck Alassane** : Développement de l’application mobile opérateur.
 
-#### Technologies utilisées
+##### Technologies utilisées
 
 ##### Windows Forms  
 Utilisé pour concevoir l’interface du logiciel administrateur.
@@ -54,15 +54,15 @@ Format utilisé pour la sérialisation et l’échange de données.
 
 <img src="/assets/json.png" width="50%" height="500px"/>
 
-#### Conception UML
+##### Conception UML
 
 ##### Diagramme de classes (logiciel windows)
 <img src="/assets/dgClasses.png" width="100%" height="500px"/>
 
-##### Diagramme de déploiement  
+ ##### Diagramme de déploiement  
 <img src="/assets/dgDeploiement.png" width="100%" height="500px"/>
 
-#### Fonctionnalités principales
+##### Fonctionnalités principales
 
 ##### Pour l’opérateur (application mobile)
 - Saisie guidée des mesures (pH, débit, etc.).  
@@ -77,7 +77,7 @@ Format utilisé pour la sérialisation et l’échange de données.
 
 <img src="/assets/logWinForm.png" width="100%" height="500px"/>
 
-#### Conclusion
+##### Conclusion
 
 Ce projet a permis de créer une solution complète pour **informatriser la prise de mesures de qualité de l’eau**, afin de faciliter le quotidien des agents du SEBA.  
 La numérisation du processus rend le suivi plus fiable, plus rapide et mieux organisé.
