@@ -2,16 +2,15 @@
 title: Valorisation des Cryptoportiques
 publishDate: 2025-02-05 19:20:00
 img: /assets/Threejs.png
-img_alt: Iridescent ripples of a bright blue and pink liquid
-description: |
-  THREE.JS
+img_alt: Threejs img
+description: Dans un groupe de 4 developpeurs utilisant la methode Agile, nous avons commencé le developpement du projet de valorisation des Cryptosportiques de la ville d'ArlesTHREE.JS
 tags:
   - Design
   - Dev
   - User Testing
 ---
 
-## ThreeJS
+#### ThreeJS
 
 ThreeJS est une bibliothèque en Javascript, créée par Mr.doob, qui permet de manipuler des objets 3D directement dans le navigateur. En fait, ce qu’il faut comprendre c’est que ThreeJS, via Javascript, permet d’utiliser WebGL dans un canvas HTML5.
 
@@ -31,7 +30,7 @@ perspective) avec des légendes ajoutées sur le terrain et une camera spéciale
 
 <iframe src="/three/TP4/index.html" width="100%" height="500px"></iframe>
 
-## Les Cryptoportiques
+#### Les Cryptoportiques
 Les Cryptoportiques font partie des monuments arlésiens classés au Patrimoine Mondial de
 l’UNESCO. Ces impressionnantes et énigmatiques galeries souterraines formaient le soubassement
 du forum, lieu public central de l’époque romaine, aux fonctions commerciales, politiques et
