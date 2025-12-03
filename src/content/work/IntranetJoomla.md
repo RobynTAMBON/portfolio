@@ -1,7 +1,7 @@
 ---
 title: Intranet Joomla 4
 publishDate: 2023-01-01 00:00:00
-img: /assets/joomla.jpg
+img: /assets/joomla.png
 img_alt: joomla img
 description: |
   j'ai créé un site intranet pour la mairie d'Aubenas pour faciliter la recherche des agents de chaque service en utilisant le CMS Joomla 4.

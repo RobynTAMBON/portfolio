@@ -3,7 +3,7 @@ title: Valorisation des Cryptoportiques
 publishDate: 2025-02-05 19:20:00
 img: /assets/Threejs.png
 img_alt: Threejs img
-description: Dans un groupe de 4 developpeurs utilisant la methode Agile, nous avons commencé le developpement du projet de valorisation des Cryptosportiques de la ville d'ArlesTHREE.JS
+description: Dans un groupe de 4 developpeurs utilisant la methode Agile, nous avons commencé le developpement du projet de valorisation des Cryptosportiques de la ville d'Arles en THREE.JS
 tags:
   - Design
   - Dev

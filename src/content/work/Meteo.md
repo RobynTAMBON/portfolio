@@ -1,0 +1,110 @@
+---
+title: Application Météo (Projet Personnel)
+publishDate: 2025-09-15 10:00:00
+img: /assets/meteo_img.png
+img_alt: Météo Img
+description: Application météo fullstack développée avec React et Spring Boot, dans un contexte d’apprentissage personnel.
+tags:
+  - Java
+  - Spring Boot
+  - React
+  - API
+---
+
+#### Présentation du projet
+
+Ce projet a été réalisé dans un **cadre entièrement personnel**, afin d’approfondir mes compétences en développement fullstack et en intégration d’API externes.
+
+Il s’agit d’une application météo composée :
+
+- d’un **front-end React**, chargé de l’interface et des interactions
+- d’un **back-end Spring Boot**, qui interroge l’API OpenWeather et renvoie un JSON simplifié au front
+
+L'application est déployée dans un conteneur Docker sur **Render** (version gratuite), ce qui peut impliquer un léger temps de démarrage lorsque le service est “endormi”.
+
+---
+
+#### Fonctionnement de l'application
+
+1. L’utilisateur saisit une ville dans l’interface React.
+2. Le front-end envoie une requête HTTP au back-end Spring Boot :  
+   **`/api/weather?city=Paris`**
+3. Le back interroge OpenWeather.
+4. Il récupère et filtre :
+   - la température  
+   - l’humidité  
+   - la description météo actuelle  
+5. Le back renvoie un JSON simplifié au front.
+6. L’interface met à jour l’affichage en temps réel.
+
+---
+
+#### Requête effectuée vers OpenWeather
+
+Voici le format exact de la requête envoyée par le backend Spring Boot :
+<p class="break-word">GET https://api.openweathermap.org/data/2.5/weather?q={VILLE}&appid={API_KEY}&units=metric</p>
+
+
+Paramètres :
+
+- **q** : nom de la ville
+- **appid** : clé API OpenWeather
+- **units=metric** : température en °C
+
+-> [Documentation OpenWheather](https://openweathermap.org/current)
+
+---
+
+#### Réponse simplifiée renvoyée au front :
+
+
+**Json**
+{
+  "city": "Paris",
+  "temperature": 23,
+  "humidity": 56,
+  "description": "clear sky"
+}
+
+---
+#### Lien vers l'application
+
+[Accéder à l'application](https://robyn-in-the-sky.onrender.com)
+(Un bref temps de chargement peut se produire si Render sort de veille.)
+
+#### Aperçu de l’application
+La premiere requête peut prendre 3s
+<iframe src="https://robyn-in-the-sky.onrender.com" width="100%" height="750px" style="border: none;"> </iframe>
+
+---
+
+#### Compétences mobilisées
+
+**Back-end (Spring Boot)**
+
+API REST
+
+services, controllers
+
+Gestion d’erreurs
+
+Déploiement sur Render via Docker
+
+**Front-end (React)**
+
+Appels API asynchrones
+
+Affichage dynamique
+
+UI simple et responsive
+
+Manipulation JSON
+
+---
+
+#### Conclusion
+
+Cette application m’a permis d’explorer l’ensemble du workflow fullstack :
+de la saisie utilisateur dans React, jusqu’à l’appel d’une API externe via un backend Spring Boot, en passant par le déploiement sur un service cloud gratuit.
+
+Elle constitue une étape importante dans mon apprentissage du développement d’applications modernes et interconnectées.

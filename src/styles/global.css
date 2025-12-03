@@ -253,3 +253,8 @@ h5 {
 		gap: 12rem;
 	}
 }
+/* Other */
+.break-word {
+  overflow-wrap: anywhere;
+}
+/* End of global.css */
