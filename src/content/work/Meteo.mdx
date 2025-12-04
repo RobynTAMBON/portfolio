@@ -1,5 +1,4 @@
 ---
-import NoCacheIframe from "../../components/NoCacheIframe.astro";
 title: Application Météo (Projet Personnel)
 publishDate: 2025-09-15 10:00:00
 img: /assets/meteo_img.png
@@ -11,6 +10,9 @@ tags:
   - React
   - API
 ---
+
+import NoCacheIframe from "../../components/NoCacheIframe.astro";
+
 
 #### Présentation du projet
 
@@ -60,12 +62,14 @@ Paramètres :
 
 
 **Json**
+```json
 {
   "city": "Paris",
   "temperature": 23,
   "humidity": 56,
   "description": "clear sky"
 }
+```
 
 ---
 #### Lien vers l'application
@@ -75,7 +79,7 @@ Paramètres :
 
 #### Aperçu de l’application
 La premiere requête peut prendre 3s
-<NoCacheIframe url="https://robyn-in-the-sky.onrender.com" width="100%" height="750px" />
+<NoCacheIframe client:load url="https://robyn-in-the-sky.onrender.com" width="100%" height="750px" />
 
 ---
 
