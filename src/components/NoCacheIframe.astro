@@ -1,0 +1,17 @@
+---
+interface Props {
+  url: string;
+  width?: string;
+  height?: string;
+}
+
+const { url, width = "100%", height = "600px" } = Astro.props;
+const finalUrl = `${url}?t=${Date.now()}`;
+---
+
+<iframe
+  src={finalUrl}
+  width={width}
+  height={height}
+  style="border: none;"
+/>

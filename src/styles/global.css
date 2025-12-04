@@ -249,6 +249,9 @@ h5 {
 	.lg\:gap-30 {
 		gap: 7.5rem;
 	}
+	.lg\:gap-40 {
+		gap: 10rem;
+	}
 	.lg\:gap-48 {
 		gap: 12rem;
 	}
