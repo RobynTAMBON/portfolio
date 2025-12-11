@@ -50,7 +50,12 @@ Plusieurs Clients Web (ThreeJS).
 Ce projet est loin d'être terminé mais,
 Voici un exemple de ce que vous pouvez voir lors d'une visite :
 
-<video width="100%" controls>
-  <source src="/assets/VideoCryptoPortique.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas les vidéos HTML5.
-</video>
+<iframe 
+    width="100%" 
+    height="350px" 
+    src="https://www.youtube.com/embed/HRaDjtGx9DI" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
