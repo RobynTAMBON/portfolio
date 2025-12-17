@@ -21,13 +21,14 @@ gestion des niveaux de détails pour permettre l'affichage de beaucoup d'objets.
 On peut voir ici le chargement d'un objet 3D, puis je crée un groupe dans lequel je clone plusieurs fois la vache, et et l'implementation d'une caméra pour se déplacer avec (Z, Q, S, D) et de rotation avec la souris.
 Tout ça ajouté à la scène donne ceci :
 
-
+<strong><u>A visualiser sur un ordinateur</u></strong>
 <iframe src="/three/TP3/index.html" width="100%" height="500px"></iframe>
 
 Voici un autre exemple de démo où j'affiche un terrain en 3D dans le navigateur web. 
 Les données du relief sont lues à partir d'un fichier au format JSON et la texture plaquée est une orthophoto (photo aérienne orthorectifiée pour supprimer les déformations dues à la
 perspective) avec des légendes ajoutées sur le terrain et une camera spéciale de simulation de vol. On peut aussi changer la texture en appuyant sur "ECHAP".
 
+<strong><u>A visualiser sur un ordinateur</u></strong>
 <iframe src="/three/TP4/index.html" width="100%" height="500px"></iframe>
 
 ##### Les Cryptoportiques

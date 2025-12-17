@@ -14,7 +14,7 @@ tags:
 import NoCacheIframe from "../../components/NoCacheIframe.astro";
 
 
-#### Présentation du projet
+##### Présentation du projet
 
 Ce projet a été réalisé dans un **cadre entièrement personnel**, afin d’approfondir mes compétences en développement fullstack et en intégration d’API externes.
 
@@ -27,7 +27,7 @@ L'application est déployée dans un conteneur Docker sur **Render** (version gr
 
 ---
 
-#### Fonctionnement de l'application
+##### Fonctionnement de l'application
 
 1. L’utilisateur saisit une ville dans l’interface React.
 2. Le front-end envoie une requête HTTP au back-end Spring Boot :  
@@ -42,7 +42,7 @@ L'application est déployée dans un conteneur Docker sur **Render** (version gr
 
 ---
 
-#### Requête effectuée vers OpenWeather
+##### Requête effectuée vers OpenWeather
 
 Voici le format exact de la requête envoyée par le backend Spring Boot :
 <p class="break-word">GET https://api.openweathermap.org/data/2.5/weather?q={VILLE}&appid={API_KEY}&units=metric</p>
@@ -58,7 +58,7 @@ Paramètres :
 
 ---
 
-#### Réponse simplifiée renvoyée au front :
+##### Réponse simplifiée renvoyée au front :
 
 
 **Json**
@@ -72,18 +72,18 @@ Paramètres :
 ```
 
 ---
-#### Lien vers l'application
+##### Lien vers l'application
 
 [Accéder à l'application](https://robyn-in-the-sky.onrender.com)
 (Un bref temps de chargement peut se produire si Render sort de veille.)
 
 #### Aperçu de l’application
 La premiere requête peut prendre 3s
-<NoCacheIframe client:load url="https://robyn-in-the-sky.onrender.com" width="100%" height="750px" />
+<NoCacheIframe client:load url="https://robyn-in-the-sky.onrender.com" />
 
 ---
 
-#### Compétences mobilisées
+##### Compétences mobilisées
 
 **Back-end (Spring Boot)**
 
@@ -107,7 +107,7 @@ Manipulation JSON
 
 ---
 
-#### Conclusion
+##### Conclusion
 
 Cette application m’a permis d’explorer l’ensemble du workflow fullstack :
 de la saisie utilisateur dans React, jusqu’à l’appel d’une API externe via un backend Spring Boot, en passant par le déploiement sur un service cloud gratuit.

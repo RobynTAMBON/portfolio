@@ -222,13 +222,11 @@ Bien que la mise en production ait été retardée ou annulée pour des raisons 
 
 ---
 
- <br><br><br><br>
+ <br><br>
 ##### En savoir plus sur ce projet
-<iframe
-  src="/pdf/RapportStageAccm.pdf"
-  width="100%"
-  height="930px"
-  style="border:none;"
-></iframe>
+<a href="/pdf/RapportStageAccm.pdf" target="_blank" rel="noopener">
+  Voir le rapport de stage
+</a>
+
 
 

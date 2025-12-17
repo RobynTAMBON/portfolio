@@ -65,3 +65,6 @@ Le quiz est disponible en ligne à l’adresse suivante :
 - Déploiement sur GitHub Pages
 - Conception d’UI simple et responsive
 - Autonomie, auto-formation, expérimentation
+
+<br><br><br>
+Source : vidéo youtube de Melvynx

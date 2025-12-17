@@ -5,13 +5,28 @@ interface Props {
   height?: string;
 }
 
-const { url, width = "100%", height = "600px" } = Astro.props;
+const { url } = Astro.props;
 const finalUrl = `${url}?t=${Date.now()}`;
 ---
 
 <iframe
+  class="project-iframe"
   src={finalUrl}
-  width={width}
-  height={height}
   style="border: none;"
 />
+
+<style>
+.project-iframe {
+  width: 100%;
+  height: 670px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .project-iframe {
+    height: 570px;
+  }
+}
+
+
+</style>
