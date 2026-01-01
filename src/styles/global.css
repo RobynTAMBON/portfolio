@@ -260,4 +260,20 @@ h5 {
 .break-word {
   overflow-wrap: anywhere;
 }
+.iframe-full {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.iframe-full iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  display: block;
+}
+
 /* End of global.css */
