@@ -1,9 +1,9 @@
 ---
 title: Débutez avec React (OpenClassrooms)
 publishDate: 2025-10-16 10:00:00
-img: /assets/reactImg.png
+img: /assets/reactImg_openClassrooms.png
 img_alt: React logo
-description: Apprentissage des fondamentaux de React et réalisation d’une application interactive dans le cadre d’un apprentissage personnel.
+description: Apprentissage des fondamentaux de React et création d’une première application interactive dans le cadre d’un apprentissage personnel.
 tags:
   - React
   - JavaScript
@@ -14,9 +14,9 @@ tags:
 ##### Présentation du projet
 
 Dans une démarche d’apprentissage personnel, j’ai suivi le MOOC **« Débutez avec React »** proposé par OpenClassrooms.  
-Ce parcours m’a permis de découvrir et de pratiquer les bases du développement d’interfaces dynamiques avec **React**, une bibliothèque JavaScript incontournable du front-end moderne.
+Ce cours m’a permis d’acquérir les **fondamentaux de React**, en comprenant sa logique de fonctionnement et en construisant une **première application complète** à l’aide de Create React App.
 
-L’apprentissage s’est appuyé sur la réalisation d’un **projet React concret**, visant à comprendre la logique des composants, la gestion de l’état et les interactions utilisateur.
+L’apprentissage repose sur une approche progressive, mêlant concepts théoriques et mise en pratique, afin de comprendre comment React permet de concevoir des interfaces utilisateur dynamiques et modulaires.
 
 ---
 
@@ -24,24 +24,43 @@ L’apprentissage s’est appuyé sur la réalisation d’un **projet React conc
 
 Les principaux objectifs de cet apprentissage étaient :
 
-- Comprendre le fonctionnement de **React** et son rôle dans une application front-end  
-- Découper une interface en **composants réutilisables**  
-- Utiliser la syntaxe **JSX** pour structurer les vues  
-- Gérer les données et les interactions via les **props** et le **state**  
-- Mettre en place une logique applicative claire et maintenable  
+- Comprendre les **principes fondamentaux de React**
+- Appréhender la **logique déclarative** de React
+- Écrire du code **modulaire et réutilisable** à l’aide des composants
+- Utiliser la syntaxe **JSX** pour structurer les interfaces
+- Créer une première application React complète avec **Create React App**
+- Gérer les interactions utilisateur et les mises à jour de l’interface
+- Manipuler et partager des données via le **state** et les **props**
+
+---
+
+##### Concepts et notions abordés
+
+Au cours de ce MOOC, j’ai notamment appris à :
+
+- Découper une interface en **composants React**
+- Comprendre le rôle du **JSX** dans la création des vues
+- Styliser une application et intégrer des **assets** (images, styles)
+- Dynamiser l’affichage avec des **listes** et des **conditions**
+- Réutiliser les composants grâce aux **props**
+- Gérer les interactions utilisateur avec les **événements**
+- Mettre en place un **state local** avec `useState`
+- Partager le state entre différents composants
+- Déclencher des effets avec le hook `useEffect`
+- Comprendre le cycle de vie simplifié des composants fonctionnels
 
 ---
 
 ##### Fonctionnalités du projet réalisé
 
-Le projet développé dans le cadre du MOOC inclut notamment :
+Le projet développé dans le cadre du cours inclut notamment :
 
-- Architecture basée sur des **composants React**  
-- Transmission de données entre composants via les **props**  
-- Gestion de l’état local avec le **state**  
-- Mise à jour dynamique de l’interface en fonction des actions utilisateur  
-- Interface fluide et réactive  
-- Code structuré et lisible
+- Application React initialisée avec **Create React App**
+- Architecture simple basée sur des composants
+- Affichage dynamique de données
+- Gestion d’événements utilisateur
+- Mise à jour de l’interface sans rechargement de page
+- Code structuré et lisible, orienté apprentissage des bonnes pratiques
 
 ---
 
@@ -62,20 +81,20 @@ Le projet développé dans le cadre du MOOC inclut notamment :
   <iframe
     src="/laMaisonJungle/index.html"
     title="Projet React - La Maison Jungle"
-    loading="lazy"
-  ></iframe>
+    loading="lazy">
+  </iframe>
 </div>
-
 
 ---
 
 ##### Compétences développées
 
-- Développement d’interfaces avec React  
-- Architecture par composants  
-- Gestion de l’état et des données  
+- Compréhension des bases de React  
+- Développement d’interfaces dynamiques  
+- Architecture front-end par composants  
+- Gestion de l’état et des effets simples  
+- Manipulation des props et des événements  
 - Logique applicative front-end  
-- Compréhension des bases du framework React  
 - Autonomie et apprentissage en auto-formation  
 
 <br><br><br>
